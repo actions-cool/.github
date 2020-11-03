@@ -8,11 +8,11 @@
 
 2. Navigate to the main page of the repository what you want to add.
 
-3. Under the repository, click Actions.
+3. Under the repository, click <kbd>Actions</kbd>.
 
 ![](./assets/image/actions-tab.png)
 
-4. If your repository already has existing workflows: In the upper-left corner, click New workflow.
+4. If your repository already has existing workflows: In the upper-left corner, click <kbd>New workflow</kbd>.
 
 ![](./assets/image/actions-new-workflow.png)
 
