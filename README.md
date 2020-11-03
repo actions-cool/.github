@@ -12,11 +12,13 @@
 
 ![](./assets/image/actions-tab.png)
 
-3. If your repository already has existing workflows: In the upper-left corner, click New workflow.
+4. If your repository already has existing workflows: In the upper-left corner, click New workflow.
 
 ![](./assets/image/actions-new-workflow.png)
 
-4. Under the name of the template you'd like to use, click <kbd>Set up this workflow</kbd>.
+5. Under the name of the template you'd like to use, click <kbd>Set up this workflow</kbd>.
+
+![](./assets/image/actions-create-starter.png)
 
 ## 📚 Reference
 - [GitHub docs](https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions/sharing-workflows-with-your-organization)
