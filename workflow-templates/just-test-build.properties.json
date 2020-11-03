@@ -1,0 +1,13 @@
+{
+  "name": "Just Test Build",
+  "description": "Normally simple test I used.",
+  "iconName": "robot-icon",
+  "categories": [
+    "Javascript",
+    "Typescript"
+  ],
+  "filePatterns": [
+    "package.json$",
+    ".*\\.md$"
+  ]
+}
