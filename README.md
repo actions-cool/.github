@@ -1,14 +1,14 @@
 # GitHub Actions
 
-🤖 GitHub Actions CI workflow template.
-
-ref: [GitHub docs](https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions/sharing-workflows-with-your-organization)
+🤖 GitHub Actions workflow template.
 
 ## 💬 How to use?
 
-1、On GitHub, navigate to the main page of the repository.
+1. Fork this repository to your organization or yourself.
 
-2. Under your repository name, click Actions.
+2. Navigate to the main page of the repository what you want to add.
+
+3. Under the repository, click Actions.
 
 ![](./assets/image/actions-tab.png)
 
@@ -16,5 +16,7 @@ ref: [GitHub docs](https://docs.github.com/en/free-pro-team@latest/actions/learn
 
 ![](./assets/image/actions-new-workflow.png)
 
-4. Under the name of the template you'd like to use, click Set up this workflow.
+4. Under the name of the template you'd like to use, click <kbd>Set up this workflow</kbd>.
 
+## 📚 Reference
+- [GitHub docs](https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions/sharing-workflows-with-your-organization)
