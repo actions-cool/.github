@@ -1,4 +1,4 @@
-# GitHub Actions
+# GitHub Actions workflows
 
 🤖 GitHub Actions workflow template.
 
