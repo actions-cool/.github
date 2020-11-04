@@ -1,0 +1,13 @@
+{
+  "name": "Automatic Rebase",
+  "description": "Automatic rebase by GitHub Actions",
+  "iconName": "robot-icon",
+  "categories": [
+    "Javascript",
+    "Typescript"
+  ],
+  "filePatterns": [
+    "package.json$",
+    ".*\\.md$"
+  ]
+}
