@@ -1,0 +1,13 @@
+{
+  "name": "Compressed size",
+  "description": "Check compressed size change",
+  "iconName": "robot-icon",
+  "categories": [
+    "Javascript",
+    "Typescript"
+  ],
+  "filePatterns": [
+    "package.json$",
+    ".*\\.md$"
+  ]
+}
