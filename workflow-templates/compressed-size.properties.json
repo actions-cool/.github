@@ -1,6 +1,6 @@
 {
   "name": "Compressed size",
-  "description": "Check compressed size change",
+  "description": "Check compressed size change.",
   "iconName": "robot-icon",
   "categories": [
     "Javascript",
