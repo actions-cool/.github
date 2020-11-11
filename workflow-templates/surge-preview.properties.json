@@ -1,0 +1,13 @@
+{
+  "name": "Surge PR Preview",
+  "description": "Preview website for your pull requests.",
+  "iconName": "acorn-icon",
+  "categories": [
+    "Javascript",
+    "Typescript"
+  ],
+  "filePatterns": [
+    "package.json$",
+    ".*\\.md$"
+  ]
+}
