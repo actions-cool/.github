@@ -1,0 +1,13 @@
+{
+  "name": "Issue Close",
+  "description": "Automatically close the issues through some settings",
+  "iconName": "working-time",
+  "categories": [
+    "Javascript",
+    "Typescript"
+  ],
+  "filePatterns": [
+    "package.json$",
+    ".*\\.md$"
+  ]
+}

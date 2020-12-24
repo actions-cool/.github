@@ -1,0 +1,21 @@
+name: Issue Close
+
+# 定时触发：每天 UTC 0 点，即北京时间 8 点。
+# Timed trigger: UTC 0 o'clock every day.
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  close-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: close-issues
+        uses: actions-cool/issues-helper@v1
+        with:
+          actions: 'close-issues'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # 关闭增加了 🤔 Need Reproduce label 且 7 天未活跃的所有 issue。更多参数请参考：https://github.com/actions-cool/issues-helper
+          # Close all issues that have added 🤔 Need Reproduce label and have not been active for 7 days. More see: https://github.com/actions-cool/issues-helper
+          labels: '🤔 Need Reproduce'
+          inactive-day: 7

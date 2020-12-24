@@ -1,0 +1,13 @@
+{
+  "name": "Issue Lock",
+  "description": "Automatically lock very long issues.",
+  "iconName": "working-time",
+  "categories": [
+    "Javascript",
+    "Typescript"
+  ],
+  "filePatterns": [
+    "package.json$",
+    ".*\\.md$"
+  ]
+}

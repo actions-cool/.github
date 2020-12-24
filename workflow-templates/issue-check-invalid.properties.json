@@ -1,0 +1,13 @@
+{
+  "name": "Issue Check Invalid",
+  "description": "Issue check invalid pass some conditions.",
+  "iconName": "working-time",
+  "categories": [
+    "Javascript",
+    "Typescript"
+  ],
+  "filePatterns": [
+    "package.json$",
+    ".*\\.md$"
+  ]
+}

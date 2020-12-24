@@ -1,0 +1,13 @@
+{
+  "name": "Issue Reply",
+  "description": "Issue auto reply by labels.",
+  "iconName": "working-time",
+  "categories": [
+    "Javascript",
+    "Typescript"
+  ],
+  "filePatterns": [
+    "package.json$",
+    ".*\\.md$"
+  ]
+}

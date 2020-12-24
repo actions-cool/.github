@@ -1,0 +1,20 @@
+name: Issue Lock
+
+# 定时触发：每 3 个月 1 号 UTC 0 点，即北京时间 8 点。
+# Timed trigger: UTC 0 o'clock on the 1st every 3 months.
+on:
+  schedule:
+    - cron: "0 0 1 */3 *"
+
+jobs:
+  lock-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: lock-issues
+        uses: actions-cool/issues-helper@v1
+        with:
+          actions: 'lock-issues'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # 锁定 128 天未活跃 issues，更多参数请参考：https://github.com/actions-cool/issues-helper
+          # Lock inactive issues for 128 days. More see: https://github.com/actions-cool/issues-helper
+          inactive-day: 128

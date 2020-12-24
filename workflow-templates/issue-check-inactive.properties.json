@@ -1,0 +1,13 @@
+{
+  "name": "Issue Check Inactive",
+  "description": "Add labels to inactive issues",
+  "iconName": "working-time",
+  "categories": [
+    "Javascript",
+    "Typescript"
+  ],
+  "filePatterns": [
+    "package.json$",
+    ".*\\.md$"
+  ]
+}
