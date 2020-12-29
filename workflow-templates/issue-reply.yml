@@ -1,11 +1,11 @@
-name: Issue replay
+name: Issue reply
 
 on:
   issues:
     types: [labeled]
 
 jobs:
-  replay-help:
+  reply-help:
     runs-on: ubuntu-latest
     steps:
       - name: help wanted
