@@ -1,0 +1,13 @@
+{
+  "name": "Issue Month Statistics",
+  "description": "Issue Month Statistics.",
+  "iconName": "working-time",
+  "categories": [
+    "Javascript",
+    "Typescript"
+  ],
+  "filePatterns": [
+    "package.json$",
+    ".*\\.md$"
+  ]
+}

@@ -10,7 +10,7 @@ jobs:
     if: contains(github.event.issue.body, 'ant-design-issue-helper') == false
     steps:
       - name: test
-        uses: actions-cool/issues-helper@v1
+        uses: actions-cool/issues-helper@v1.7
         with:
           actions: 'create-comment,add-labels,close-issue'
           token: ${{ secrets.GITHUB_TOKEN }}
