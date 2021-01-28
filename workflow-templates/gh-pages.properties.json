@@ -1,0 +1,13 @@
+{
+  "name": "GitHub gh-pages",
+  "description": "Deploy gh-pages Action",
+  "iconName": "workflow",
+  "categories": [
+    "Javascript",
+    "Typescript"
+  ],
+  "filePatterns": [
+    "package.json$",
+    ".*\\.md$"
+  ]
+}
