@@ -4,7 +4,7 @@
 
 ## 💬 How to use?
 
-1. Fork this repository to your organization or yourself.
+1. Fork this repository to your organization or yourself. Note: Don't rename. Please keep `.github`.
 
 2. Navigate to the main page of the repository what you want to add.
 
