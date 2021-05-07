@@ -1,0 +1,13 @@
+{
+  "name": "Star Helper",
+  "description": "AA GitHub Action help you star or unstar a repository.",
+  "iconName": "working-time",
+  "categories": [
+    "Javascript",
+    "Typescript"
+  ],
+  "filePatterns": [
+    "package.json$",
+    ".*\\.md$"
+  ]
+}
