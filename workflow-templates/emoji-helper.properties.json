@@ -1,0 +1,13 @@
+{
+  "name": "Emoji Helper",
+  "description": "Add emoji to Issue、PR、release、comment",
+  "iconName": "working-time",
+  "categories": [
+    "Javascript",
+    "Typescript"
+  ],
+  "filePatterns": [
+    "package.json$",
+    ".*\\.md$"
+  ]
+}
