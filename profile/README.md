@@ -3,21 +3,19 @@
 ## <img src="https://emojis.slackmojis.com/emojis/images/1621024394/39092/cat-roll.gif?1621024394" width="40" /> Awesome GitHub Actions. What you want, bring up!
 
 ## Cool List
-
-| name | desc |
-| -- | -- |
-| [issues-helper](https://github.com/actions-cool/issues-helper) | 🤖 A GitHub Action easily helps you automatically manage issues. Welcome to try. |
-| [issues-similarity-analysis](https://github.com/actions-cool/issues-similarity-analysis) | 👁 A GitHub Action help you analysis similarity based on the title of issue. |
-| [release-helper](https://github.com/actions-cool/release-helper) | 🤖 A GitHub Action that help you publish release. |
-| [translation-helper](https://github.com/actions-cool/translation-helper) | 🌏 A GitHub Action keep your issue or PR in line with international standards. |
-| [contributor-helper](https://github.com/actions-cool/contributor-helper) | 🥳 Help you view contributor. |
-| [star-helper](https://github.com/actions-cool/star-helper) | 🌟 A GitHub Action help you star or unstar a repository. |
-| [pr-welcome](https://github.com/actions-cool/pr-welcome) | Thanks for your contribution. 😅 But I maybe refuse by GitHub Action. |
-| [pr-check-fill](https://github.com/actions-cool/pr-check-fill) | 👀 A GitHub Action help you to check the filling format of PR. |
-| [pr-extract-issues](https://github.com/actions-cool/pr-extract-issues) | 🤠 A GitHub Action help you extract issues from pr commit or title or body. |
-| [ci-notice](https://github.com/actions-cool/ci-notice) | 😱 Notify you when CI fails. |
-| [check-pr-ci](https://github.com/actions-cool/check-pr-ci) | 🚗 Check the PR CI status and perform some operation after success or failure. |
-| [check-user-permission](https://github.com/actions-cool/check-user-permission) | 👮 A GitHub Action to check user permission of the current repository. |
-| [maintain-one-comment](https://github.com/actions-cool/maintain-one-comment) | 📌 Maintain just one comment in Issue and PR by GitHub Action. |
-| [verify-package-version](https://github.com/actions-cool/verify-package-version) | 🙏 A GitHub Action that verify your package version whether meets some conditions. |
-| [verify-files-modify](https://github.com/actions-cool/verify-files-modify) | ⚡ Verify PR files modification by GitHub Action. |
+| --- | --- | --- |
+| [issues-helper](https://github.com/actions-cool/issues-helper) | 🤖 A GitHub Action easily helps you automatically manage issues. Welcome to try. | [![](https://img.shields.io/github/stars/actions-cool/issues-helper?style=flat-square&color=0)](https://github.com/actions-cool/issues-helper/stargazers) |
+| [ci-notice](https://github.com/actions-cool/ci-notice) | 😱 Notify you when CI fails | [![](https://img.shields.io/github/stars/actions-cool/ci-notice?style=flat-square&color=1)](https://github.com/actions-cool/ci-notice/stargazers) |
+| [release-helper](https://github.com/actions-cool/release-helper) | 🤖 A GitHub Action that help you publish release. | [![](https://img.shields.io/github/stars/actions-cool/release-helper?style=flat-square&color=2)](https://github.com/actions-cool/release-helper/stargazers) |
+| [maintain-one-comment](https://github.com/actions-cool/maintain-one-comment) | 📌 Maintain just one comment in Issue and PR by GitHub Action. | [![](https://img.shields.io/github/stars/actions-cool/maintain-one-comment?style=flat-square&color=3)](https://github.com/actions-cool/maintain-one-comment/stargazers) |
+| [verify-package-version](https://github.com/actions-cool/verify-package-version) | 🙏 A GitHub Action that verify your package version whether meets some conditions. | [![](https://img.shields.io/github/stars/actions-cool/verify-package-version?style=flat-square&color=4)](https://github.com/actions-cool/verify-package-version/stargazers) |
+| [issues-similarity-analysis](https://github.com/actions-cool/issues-similarity-analysis) | 👁 A GitHub Action help you analysis similarity based on the title of issue. | [![](https://img.shields.io/github/stars/actions-cool/issues-similarity-analysis?style=flat-square&color=5)](https://github.com/actions-cool/issues-similarity-analysis/stargazers) |
+| [verify-files-modify](https://github.com/actions-cool/verify-files-modify) | ⚡ Verify PR files modification by GitHub Action. | [![](https://img.shields.io/github/stars/actions-cool/verify-files-modify?style=flat-square&color=6)](https://github.com/actions-cool/verify-files-modify/stargazers) |
+| [pr-welcome](https://github.com/actions-cool/pr-welcome) | Thanks for your contribution. 😅 But I maybe refuse by GitHub Action. | [![](https://img.shields.io/github/stars/actions-cool/pr-welcome?style=flat-square&color=7)](https://github.com/actions-cool/pr-welcome/stargazers) |
+| [pr-extract-issues](https://github.com/actions-cool/pr-extract-issues) | 🤠 A GitHub Action help you extract issues from pr commit or title or body. | [![](https://img.shields.io/github/stars/actions-cool/pr-extract-issues?style=flat-square&color=8)](https://github.com/actions-cool/pr-extract-issues/stargazers) |
+| [check-user-permission](https://github.com/actions-cool/check-user-permission) | 👮 A GitHub Action to check user permission of the current repository. | [![](https://img.shields.io/github/stars/actions-cool/check-user-permission?style=flat-square&color=0)](https://github.com/actions-cool/check-user-permission/stargazers) |
+| [translation-helper](https://github.com/actions-cool/translation-helper) | 🌏 A GitHub Action keep your issue or PR in line with international standards. | [![](https://img.shields.io/github/stars/actions-cool/translation-helper?style=flat-square&color=1)](https://github.com/actions-cool/translation-helper/stargazers) |
+| [star-helper](https://github.com/actions-cool/star-helper) | 🌟 A GitHub Action help you star or unstar a repository. | [![](https://img.shields.io/github/stars/actions-cool/star-helper?style=flat-square&color=2)](https://github.com/actions-cool/star-helper/stargazers) |
+| [check-pr-ci](https://github.com/actions-cool/check-pr-ci) | 🚗 Check the PR CI status and perform some operation after success or failure. | [![](https://img.shields.io/github/stars/actions-cool/check-pr-ci?style=flat-square&color=3)](https://github.com/actions-cool/check-pr-ci/stargazers) |
+| [contributor-helper](https://github.com/actions-cool/contributor-helper) | 🥳 Help you view contributor | [![](https://img.shields.io/github/stars/actions-cool/contributor-helper?style=flat-square&color=4)](https://github.com/actions-cool/contributor-helper/stargazers) |
+| [pr-check-fill](https://github.com/actions-cool/pr-check-fill) | 👀 A GitHub Action help you to check the filling format of PR | [![](https://img.shields.io/github/stars/actions-cool/pr-check-fill?style=flat-square&color=5)](https://github.com/actions-cool/pr-check-fill/stargazers) |
