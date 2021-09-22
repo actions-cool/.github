@@ -17,7 +17,7 @@ jobs:
         run: yarn
 
       - name: Update
-        run: node ./script/update-profile.js
+        run: node ./scripts/update-profile.js
 
       - name: Commit and push if changed
         run: |-
