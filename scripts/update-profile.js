@@ -22,7 +22,6 @@ async function main() {
       data
     } = await axios.get(url);
     const json = JSON.parse(data.substring(12, data.length - 1));
-    console.log(json)
     const oldReadme = fs.readFileSync(path, 'utf-8');
     const index = oldReadme.indexOf(point);
     const before = oldReadme.substring(0, index);
@@ -30,12 +29,13 @@ async function main() {
     let table = ``;
 
     json.actions.forEach((a, i) => {
-      const color = i % (colors.length);
+      const color = colors[i % (colors.length)];
       table += `
 | [${a.name}](${a.url}) | ${a.desc} | [![](https://img.shields.io/github/stars/actions-cool/${a.name}?style=flat-square&color=${color})](https://github.com/actions-cool/${a.name}/stargazers) |`
     })
 
     const newReadme = before + point + `
+| Name | Desc | Star |
 | --- | --- | --- |` + table;
 
     fs.writeFileSync(path, newReadme);
