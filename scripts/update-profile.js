@@ -5,7 +5,7 @@ async function main() {
   try {
     const url = 'https://raw.githubusercontent.com/actions-cool/cool/main/assets/actions.js';
     const path = './profile/README.md';
-    const point = '## Cool List';
+    const point = '### Cool List';
     const colors = [
       'bright',
       'green',

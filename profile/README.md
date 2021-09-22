@@ -2,7 +2,7 @@
 
 ## <img src="https://emojis.slackmojis.com/emojis/images/1621024394/39092/cat-roll.gif?1621024394" width="40" /> Awesome GitHub Actions. What you want, bring up!
 
-## Cool List
+### Cool List
 | Name | Desc | Star |
 | --- | --- | --- |
 | [issues-helper](https://github.com/actions-cool/issues-helper) | 🤖 A GitHub Action easily helps you automatically manage issues. Welcome to try. | [![](https://img.shields.io/github/stars/actions-cool/issues-helper?style=flat-square&color=bright)](https://github.com/actions-cool/issues-helper/stargazers) |
