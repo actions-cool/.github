@@ -15,7 +15,7 @@ async function main() {
       'red',
       'blue',
       'blueviolet',
-      '%023ff69b4'
+      '%23ff69b4',
     ];
 
     const {
