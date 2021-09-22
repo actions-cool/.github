@@ -1,7 +1,4 @@
-const {
-  readFileSync,
-  writeFileSync
-} = require('fs');
+const fs = require('fs');
 const axios = require('axios');
 
 async function main() {
@@ -26,7 +23,7 @@ async function main() {
     } = await axios.get(url);
     const json = JSON.parse(data.substring(12, data.length - 1));
     console.log(json)
-    const oldReadme = readFileSync(path, 'utf-8');
+    const oldReadme = fs.readFileSync(path, 'utf-8');
     const index = oldReadme.indexOf(point);
     const before = oldReadme.substring(0, index);
 
@@ -41,7 +38,7 @@ async function main() {
     const newReadme = before + point + `
 | --- | --- | --- |` + table;
 
-    writeFileSync(path, newReadme);
+    fs.writeFileSync(path, newReadme);
     console.log('Done!')
   } catch(e) {
     console.log(e.message);
