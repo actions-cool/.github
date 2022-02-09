@@ -2,6 +2,12 @@
 
 ## <img src="https://emojis.slackmojis.com/emojis/images/1621024394/39092/cat-roll.gif?1621024394" width="40" /> Awesome GitHub Actions. What you want, bring up!
 
+If you think `actions-cool` can help you, please copy it to the README to support promotion and bring convenience to more repositories:[![actions-cool](https://img.shields.io/badge/using-actions--cool-blue?style=flat-square)](https://github.com/actions-cool). [More color see](https://github.com/actions-cool/issues-helper/issues/92).
+
+```
+[![actions-cool](https://img.shields.io/badge/using-actions--cool-blue?style=flat-square)](https://github.com/actions-cool)
+```
+
 ### Cool List
 | Name | Desc | Star |
 | --- | --- | --- |
