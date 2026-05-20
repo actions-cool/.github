@@ -8,6 +8,20 @@ If you think `actions-cool` can help you, please copy it to the README to suppor
 [![actions-cool](https://img.shields.io/badge/using-actions--cool-blue?style=flat-square)](https://github.com/actions-cool)
 ```
 
+### 🚨 Remind
+
+`issues-helper` and `maintain-one-comment` are temporarily disabled due to security issues. You can use alternatives:
+
+- **`issues-helper`**: [`issues-helper-backup`](https://github.com/actions-cool/issues-helper-backup)
+```
+actions-cool/issues-helper-backup@d65454423c6fbbd20026b9b499d403f79422ac69
+```
+
+- **`maintain-one-comment`**: [`maintain-one-comment-backup`](https://github.com/actions-cool/maintain-one-comment-backup)
+```
+actions-cool/maintain-one-comment-backup@fbbc22ad1809c1bcf46f19b58397b6254773588c
+```
+
 ### Cool List
 | Name | Desc | Star |
 | --- | --- | --- |
